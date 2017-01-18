@@ -1,0 +1,88 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Product</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="assets/img/mfo.jpg">
+      </ion-avatar>
+      <h2>Mohamed Firas Ouertani</h2>
+      <p>December 31, 2016  <ion-badge item-right>Profissionel</ion-badge></p>
+    </ion-item>
+    <ion-slides>
+      <ion-slide>
+        <img src="assets/img/card-saopaolo.png">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/img/card-saopaolo.png">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/img/card-saopaolo.png">
+      </ion-slide>
+    </ion-slides>
+
+
+    <ion-card-content>
+
+      <h2>Iphone 7 et ses accesoires</h2>
+<br>
+
+      <p>Wait a minute. Wait a minute, {{product}}. Uhhh... Are you telling me that you built a time machine... out of a
+        DeLorean?! Whoa. This is heavy.</p>
+    </ion-card-content>
+
+
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="radio-button-on"></ion-icon>
+          <div>Occasion</div>
+        </button>
+      </ion-col>
+
+      <ion-col center text-center>
+
+      </ion-col>
+
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="pin"></ion-icon>
+          <div>Tunis</div>
+        </button>
+      </ion-col>
+
+    </ion-row>
+
+  </ion-card>
+
+
+
+  <h4 padding="">Coordonnées du vendeur</h4>
+    <ion-item no-lines>
+      <div>
+      <ion-icon name="call"></ion-icon>
+        <a (click)="callSeller(53851047)">53 851 047</a>
+      </div>
+      <div item-right>
+        <ion-icon  name="compass"></ion-icon>
+         Ariana
+
+      </div>
+    </ion-item>
+
+
+      <div padding  >
+        <ion-icon name="mail"></ion-icon>
+        ProFirases@gmail.com
+      </div>
+
+
+
+
+</ion-content>
